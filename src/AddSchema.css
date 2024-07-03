@@ -1,0 +1,57 @@
+.addSchema {
+  background-color: white;
+  min-height: 100vh;
+  max-width: 35vw;
+  width: max-content;
+}
+
+.Traits {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  gap: 5px;
+}
+
+.selected-schemes {
+  border: 4px solid #60a6e7;
+  padding: 20px;
+}
+.selected-schemes > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.selected-schemes img {
+  cursor: pointer;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 70px;
+}
+
+.fontweight-bold {
+  font-weight: bold;
+}
+
+.green {
+  width: 18px;
+}
+
+.red {
+  width: 23px;
+}
+
+select {
+  height: 40px;
+}
+
+.Save-button {
+  display: flex;
+  gap: 20px;
+  margin-left: 70px;
+}
+.Save-button button {
+  padding: 5px;
+}
